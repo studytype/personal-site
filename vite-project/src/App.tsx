@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 export default function App() {
-  const [currentTime, setCurrentTime] = useState(new Date());
+  const [currentTime, setCurrentTime] = useState(new Dae());
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -28,7 +28,7 @@ export default function App() {
     { date: "05.27.24", description: "Graduates high school. " },
     { date: "02.18.24", description: "Trying to learn how to code. Messes around with no code app builders and stuck in tutorial hell." },
     { date: "01.12.24", description: "Watches Arib Khan's podcast with Brett Maliowski about Musicfy and is 100x more intersted." },
-    { date: "11.05.23", description: "Praneeth tells Dheeraj about startups and how he exited Parst for $100k+." },
+    { date: "11.05.23", description: "Praneeth tells Dheeraj about startups and how he exited Parst." },
     { date: "05.31.06", description: "Dheeraj is born" },
 
   ];
